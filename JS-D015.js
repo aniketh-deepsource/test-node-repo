@@ -7,11 +7,11 @@ let session = cookieSession({
 
 // express-session
 const express = require('express')
-const session = require('express-session')
+const session1 = require('express-session')
 
 let app = express()
 app.use(
-  session({
+  session1({
     cookie: {
       secure: false // Sensitive
     }
@@ -30,6 +30,5 @@ cookies.set('LastVisit', new Date().toISOString(), {
 // csurf
 const cookieParser = require('cookie-parser')
 const csrf = require('csurf')
-const express = require('express')
 
 let csrfProtection = csrf({ cookie: { secure: false } }) // Sensitive
