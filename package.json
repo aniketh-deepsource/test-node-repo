@@ -1,0 +1,17 @@
+{
+  "name": "test-node-repo",
+  "version": "1.0.0",
+  "bin": {
+    "cli": "./shebang.js"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:aniketh-deepsource/test-js-analyzer.git",
+  "author": "aniketh-deepsource <aniketh@deepsource.io>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-semistandard": "^15.0.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
